@@ -145,7 +145,7 @@
   .LinkBlockHeader a {
     height: min-content;
     margin: 20px;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
   }
 
   header {

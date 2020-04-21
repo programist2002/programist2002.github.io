@@ -10,6 +10,8 @@ const anchors = document.querySelectorAll('a[href*="#"]')
 
 for (let anchor of anchors) {
   anchor.addEventListener("click", function (e) {
+    let menu = document.querySelector(".menuBTN");
+    menu.classList.toggle("menuActive");
     let menuText = document.querySelector(".LinkBlockHeader");
     menuText.classList.remove("menuActive");
     event.preventDefault();

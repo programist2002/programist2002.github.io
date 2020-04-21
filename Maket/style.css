@@ -9,6 +9,10 @@ html, body {
   width: 100%;
 }
 
+.mdl-js {
+  width: 100%;
+}
+
 /*------Блок, який відповідає за ширину всього макету-----*/
 
 .wrapperWidth {
@@ -21,7 +25,7 @@ html, body {
 /*-----------------Block1--------------*/
 
 .Block1 {
-  background-image: url(../images/header/background_header.png);
+  background-image: url(./images/header/background_header.png);
   background-repeat: space;
   background-size: cover;
   width: 100%;

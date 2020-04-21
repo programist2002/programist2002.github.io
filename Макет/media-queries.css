@@ -1,0 +1,459 @@
+@media only screen and (max-width: 1300px) {
+  .BlockPrice {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .BlockPrice {
+    width: 275px;
+  }
+
+  .HeaderText {
+    width: 380px;
+  }
+
+  .TitleHeaderText {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .BlockPrice {
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .WrapperTextForm {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 750px;
+  }
+  .Block1 {
+  height: 1000px;  
+  }
+  .TitleHeaderText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+  .HeaderTextDescription p {
+    text-align: center;
+  }
+
+  .imgBlock2 {
+    
+  }
+
+  .heightBlock4 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85%;
+  }
+
+  .BlockTestimonial {
+    height: 380px;
+  }
+
+  .BlockGallery {
+    height: 380px;
+  }
+
+  .wrapperBlock4 {
+    height: 1000px;
+  }
+
+  .BlockPricing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .BlockPrice {
+    margin-bottom: 40px;
+  }
+
+  .imgBlock2 {
+    flex-direction: column;
+    height: min-content;
+  }
+
+  .BlockSectionServices {
+    margin-bottom: 100px;
+  }
+
+  .BlockPrice button {
+    width: 100%;
+  }
+
+  .wrapperInlineBlock {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .wrapperInlineBlock button {
+    margin-top: 20px;
+  }
+
+  .BlockFooter {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .TextFooter {
+    margin-bottom: 30px;
+  }
+
+  .MobileMenu {
+    display: block;
+  }
+
+  .menuBTN.menuActive span:before {
+    width: 10px;
+    transform: rotate(-45deg);
+    transform-origin: left bottom;
+  }
+
+  .menuBTN.menuActive span:after {
+    width: 10px;
+    transform: rotate(45deg);
+    transform-origin: left top;
+  }
+
+  .LinkBlockHeader {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .LinkBlockHeader.menuActive {
+    visibility: visible;
+    opacity: 1;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    transition: all 0.4s;  
+  }
+
+  .LinkBlockHeader a {
+    height: min-content;
+    margin: 20px;
+    background-color: lightcoral;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .HeaderLogo img {
+    width: 150px;
+  }
+
+  .TitleHeaderText {
+    font-size: 45px;
+  }
+
+  .HeaderText {
+    width: 100%;
+  }
+
+  #RequestForm {
+    width: 100%;
+  }
+
+  .wrapperForm {
+    width: 230px;
+  }
+
+  .InputSet input {
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .InputSet {
+    height: 200px;
+  }
+
+  #RequestForm h3 {
+    margin: 25px;
+    font-size: 17px;
+  }
+
+  .CheckboxHeaderForm p {
+    font-size: 13px;
+  }
+
+  .TextInlineBlock {
+    width: 100%;
+    text-align: center;
+  }
+
+  .TitleBlock3 h4 {
+    font-size: 35px;
+  }
+
+  .PriceText {
+    font-size: 40px;
+  }
+
+  .BlockTestimonial {
+    width: 100%;
+  }
+
+  .Block4TextTitle1 {
+    font-size: 35px;
+  }
+
+  .DescriptionBlock4TextTitle1 {
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section1Block4, .section2Block4 {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section1Block4 img, .section2Block4 img {
+    position: static;
+    right: 0;
+    margin-top: 15px;
+  }
+
+  .DescriptionBlock4TextTitle1 {
+    text-align: center;
+    width: 100%;
+    /* background-color: maroon; */
+    margin-left: 0;
+  }
+
+  .wrapperTextBlock4TitleSection1 {
+    height: 600px;
+  }
+
+  .DescriptionBlock4TextTitle1 {
+    margin-top: 20px;
+  }
+
+  .wrapperBlock4 {
+    height: 1000px;
+    /* background-color: saddlebrown; */
+  }
+
+  .heightBlock4 {
+    /* background-color: maroon; */
+    height: 90%;
+  }
+
+  .BlockTestimonial {
+    /* background-color: red; */
+    height: 450px;
+  }
+
+  .BlockGallery {
+    width: 100%;
+    height: 310px;
+    /* background-color: midnightblue; */
+  }
+
+  .wrapperTextBlock4TitleSection1 {
+    /* background-color: green; */
+  }
+
+  .section2Block4 {
+    height: 155px;
+    
+  }
+
+  .BlockFotoBlock4 img {
+    height: 70px;
+  }
+
+  .sectionImgBlock4 {
+    height: 190px;
+  }
+
+
+  .TextFooter {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .TextFooterColor {
+    margin-left: 2px;
+  }
+
+  .BlockFooter img {
+    width: 90px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .HeaderLogo img {
+    width: 150px;
+  }
+
+  .TitleHeaderText {
+    font-size: 45px;
+  }
+
+  .HeaderText {
+    width: 100%;
+  }
+
+  #RequestForm {
+    width: 100%;
+  }
+
+  .wrapperForm {
+    width: 230px;
+  }
+
+  .InputSet input {
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .InputSet {
+    height: 200px;
+  }
+
+  #RequestForm h3 {
+    margin: 25px;
+    font-size: 17px;
+  }
+
+  .CheckboxHeaderForm p {
+    font-size: 13px;
+  }
+
+  .TextInlineBlock {
+    width: 100%;
+    text-align: center;
+  }
+
+  .TitleBlock3 h4 {
+    font-size: 35px;
+  }
+
+  .PriceText {
+    font-size: 40px;
+  }
+
+  .BlockTestimonial {
+    width: 100%;
+  }
+
+  .Block4TextTitle1 {
+    font-size: 35px;
+  }
+
+  .DescriptionBlock4TextTitle1 {
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section1Block4, .section2Block4 {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section1Block4 img, .section2Block4 img {
+    position: static;
+    right: 0;
+    margin-top: 15px;
+  }
+
+  .DescriptionBlock4TextTitle1 {
+    text-align: center;
+    width: 100%;
+    /* background-color: maroon; */
+    margin-left: 0;
+  }
+
+  .wrapperTextBlock4TitleSection1 {
+    height: 600px;
+  }
+
+  .DescriptionBlock4TextTitle1 {
+    margin-top: 20px;
+  }
+
+  .wrapperBlock4 {
+    height: 1000px;
+    /* background-color: saddlebrown; */
+  }
+
+  .heightBlock4 {
+    /* background-color: maroon; */
+    height: 90%;
+  }
+
+  .BlockTestimonial {
+    /* background-color: red; */
+    height: 450px;
+  }
+
+  .BlockGallery {
+    width: 100%;
+    height: 310px;
+    /* background-color: midnightblue; */
+  }
+
+  .wrapperTextBlock4TitleSection1 {
+    /* background-color: green; */
+  }
+
+  .section2Block4 {
+    height: 155px;
+    
+  }
+
+  .BlockFotoBlock4 img {
+    height: 70px;
+  }
+
+  .sectionImgBlock4 {
+    height: 190px;
+  }
+
+
+  .TextFooter {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .TextFooterColor {
+    margin-left: 2px;
+  }
+
+  .BlockFooter img {
+    width: 90px;
+  }
+}
+
+

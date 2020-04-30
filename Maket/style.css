@@ -443,6 +443,7 @@ header {
   color: #130e27;
   font-family: Montserrat;
   transition: 1s;
+  cursor: pointer
 }
 
 .LinkShowMore {

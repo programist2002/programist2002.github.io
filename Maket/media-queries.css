@@ -105,6 +105,7 @@
 
   .MobileMenu {
     display: block;
+    z-index: 1;
   }
 
   .menuBTN.menuActive span:before {
@@ -140,6 +141,7 @@
     width: 100%;
     transition: all 0.4s; 
     overflow:  hidden; 
+    z-index: 1;
   }
 
   .LinkBlockHeader a {
